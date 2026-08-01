@@ -1,17 +1,17 @@
 import react from "react";
 
     const UseContext = react.createContext(
-        todos[
+        {todos :[
             {
                 id:1,
                 name:"xyz",
-                is_checked : false
+                completed : false
             }
             
         ],
-        addTodo= (name)=>{},
-        updateTodo=(id,name)=>{},
-        deleteTodo=(id)=>{},
+        addTodo : (txt)=>{},
+        updateTodo :(id,txt)=>{},
+        deleteTodo :(id)=>{},}
 
     )
     
